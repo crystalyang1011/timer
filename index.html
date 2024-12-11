@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <h1>Exercise Timer</h1>
+    <div id="status">Waiting to start...</div>
+    <div id="timer">00:00</div>
+    <div id="group">~</div>
+    <input type="number" id="totalGroups" placeholder="Total Groups" min="1"><br/>
+    <input type="number" id="exerciseDuration" placeholder="Exercise Duration(s)" min="1"><br/>
+    <input type="number" id="breakDuration" placeholder="Break Duration(s)" min="1"><br/>
+    <button onclick="startTimer()">Start</button>
+
+    <script src="./index.js"></script>
+</body>
+</html>
