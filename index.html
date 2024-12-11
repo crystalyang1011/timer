@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./static/css/index.css">
 </head>
 <body>
+
+    <audio id="exerciseCountdownAudio" src="./static/mp3/10-sec-exercise-over.mp3" style="display:none;"></audio>
+    <audio id="breakCountdownAudio" src="./static/mp3/3-sec-break-over.mp3" style="display:none;"></audio>
 
     <h1>Exercise Timer</h1>
     <div id="status">Waiting to start...</div>
@@ -17,6 +20,6 @@
     <input type="number" id="breakDuration" placeholder="Break Duration(s)" min="1"><br/>
     <button onclick="startTimer()">Start</button>
 
-    <script src="./index.js"></script>
+    <script src="./static/js/index.js"></script>
 </body>
 </html>
